@@ -5,7 +5,7 @@
 def gv
 
 pipeline {
-    agent none
+    agent any
 
     tools {
         maven 'Maven'
